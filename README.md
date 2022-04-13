@@ -1,1 +1,2 @@
 # Spotify-MyApp
+![](sample.jpg)
