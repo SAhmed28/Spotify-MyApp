@@ -2,5 +2,5 @@
 ![](sample.jpg)
 
 
-# Play with it!
+# Live link on github-
 https://sahmed28.github.io/Spotify-MyApp/
