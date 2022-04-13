@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify-Just Listen!</title>
+    <link rel="stylesheet" href="css/all.min.css">  <!--  font awesome icons  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="shortcut icon" href="#">     <!-- For the JS error favicon.ico not found! -->
+</head>
+<body>
+    
+    <!-- =================== nav starts =================-->
+    <section id="navbar">
+        <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><img src="img/logo.png" alt="logo"> Spotify</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Songs</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- =================== nav ends =================-->
+    <section id="song">
+        <div class="container-fluid">
+            <div class="container">
+                <h1>Best of NCS - No Copyright Sounds!</h1>
+                <div class="col-lg-6 col-md-6 py-4">
+                    <div class="songItem">
+                        <img alt="10">
+                        <span class="songName">Let me love you</span>
+                        <span class="timestamp">05:34 <a href="#"><i id="0" class="fa-regular fa-circle-play pointer songItemPlay"></i></a></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="10">
+                        <span class="songName">Let me love you</span>
+                        <span class="timestamp">05:34 <a href="#"><i id="1" class="fa-regular fa-circle-play pointer songItemPlay"></i></a></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="10">
+                        <span class="songName">Let me love you</span>
+                        <span class="timestamp">05:34 <a href="#"><i id="2" class="fa-regular fa-circle-play pointer songItemPlay"></i></a></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="10">
+                        <span class="songName">Let me love you</span>
+                        <span class="timestamp">05:34 <a href="#"><i id="3" class="fa-regular fa-circle-play pointer songItemPlay"></i></a></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="10">
+                        <span class="songName">Let me love you</span>
+                        <span class="timestamp">05:34 <a href="#"><i id="4" class="fa-regular fa-circle-play pointer songItemPlay"></i></a></span>
+                    </div>
+                    <div class="songItem">
+                        <img alt="10">
+                        <span class="songName">Let me love you</span>
+                        <span class="timestamp">05:34 <a href="#"><i id="5" class="fa-regular fa-circle-play pointer songItemPlay"></i></a></span>
+                    </div>
+
+                    
+                </div>
+                <div class="col-lg-6 col-md-6"></div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- =================== song ends =================-->
+
+    <section id="controller">
+        <div class="container-fluid">
+            <div class="controller-box col-md-12 col-sm-12">
+                <div class="row justify-content-center">
+                    <input id="myProgressBar" class="pointer" type="range" min="0" max="100">
+                </div>
+                <div class="row justify-content-center my-2">
+                    <div class="icons">
+                        <a href="#" id ="previousLink"><i id="previous" class="fa-solid fa-backward-step fa-2x mx-3"></i></a>
+                        <a href="#" id ="masterPlayLink"><i id="masterPlay" class="fa-regular fa-circle-play fa-2x mx-3"></i></a>
+                        <a href="#" id ="nextLink"><i id="next" class="fa-solid fa-forward-step fa-2x mx-3"></i></a>
+                    </div>
+                </div>   
+            </div>
+            <div class="songInfo">
+                <img src="img/playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
+            </div>
+        </div>
+    </section>
+    <!-- =================== controller ends =================-->
+
+
+
+
+
+
+
+
+    <!-- =================== JS Files =================-->
+    <script src="js/jquery-3.6.0.slim.min.js"></script> 
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/all.min.js"></script> <!--  font awesome icons  -->
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script> 
+
+</body>
+</html>

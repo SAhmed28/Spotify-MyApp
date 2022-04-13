@@ -1,0 +1,14 @@
+@media only screen and (max-width: 414px) {
+    #song {
+        min-height: 0vh;
+    }
+
+    #song .songItem {
+        height: 84px;
+    }
+
+    .songInfo {
+        left: 4%;
+        bottom: 1.5vh;
+    }
+  }

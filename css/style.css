@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+h1,h2,h3,h4,h5,h6,ol,ul,p,address{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@font-face{
+    font-family:opensans_exb;
+    src:url(../fonts/open-sans/OpenSans-ExtraBold.ttf);
+}
+@font-face{
+    font-family:opensans_reg;
+    src:url(../fonts/open-sans/OpenSans-Regular.ttf);
+}
+.bg{
+    background: #36d87a;
+    color: blue;
+}
+.bg1{
+    background: linear-gradient(to right, hsl(200,100%,50%), hsl(175,100%,50%));
+}
+
+/*-------------------------- Custom CSS --------------------------*/
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+body{
+    background: linear-gradient(to right, #a704fd, #ff57b9);
+    
+}
+
+#navbar ul{
+    height: 55px;
+    background: black;
+    display: flex;
+}
+#navbar ul li{
+    text-align: center;
+    margin: auto 0;
+}
+#navbar ul li a{
+    color: white;
+    line-height: 0;
+}
+#navbar ul li .active{
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+#navbar ul li a img{
+    width: 40px;
+}
+
+/*-------------------------- nav ends --------------------------*/
+
+#song{
+    min-height: 80vh;
+}
+#song .container{
+    height: 72%;
+    background: black;
+    color: white;
+    background-image: url("../img/bg.jpg");
+    background-size: 100% 100%;
+    margin: 10px auto;
+    border-radius: 12px;
+}
+#song .songItem{
+    background: white;
+    color: black;
+    height: 50px;
+    display: flex;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+/*-------------------------- song ends --------------------------*/
+
+
+#controller{
+    background: #000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    position: sticky;
+}
+
+#controller input{
+    width: 80rem;
+}
+
+
+.songInfo{
+    position: absolute;
+    left: 17%;
+    bottom: 5vh;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
+
+/*-------------------------- controller ends --------------------------*/
+
+
+
+
+
+
+
